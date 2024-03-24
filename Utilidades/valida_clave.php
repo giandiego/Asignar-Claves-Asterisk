@@ -4,7 +4,7 @@
 	require('/var/lib/asterisk/agi-bin/phpagi/phpagi.php');
 
 	//Usamos mysqli
-	$conexion = new mysqli("localhost","edita_pin","dialvoice","asterisk");
+	$conexion = new mysqli("localhost","edita_pin","asinar_claves123","asterisk");
 
 	$agi=new AGI();
 
